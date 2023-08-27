@@ -32,6 +32,19 @@ As a result, the script will create a file **output.adoc**, which will be a copy
 > **Note**
 > The contents in the **output.adoc** file are always overwritten after the script is run!
 
+## Dependency|Requirement
+
+* python 3.x
+
+## Installation
+
+```
+sudo make install
+```
+
+After that, the tool will be available in console with command `asciidoc-table-beautifier`.
+
+
 ## How to use
 
 Just run the script with the following command:
@@ -46,3 +59,19 @@ At that, the console will display help. Or you can specify as an argument the fi
 
 * [feature--1.0.a](https://github.com/Andronovss/asciidocTablePrettify/tree/feature--1.0.a) -- Added a check for the number of "|" symbols.
 If the number is not true, then -- false.
+
+
+## ToDo
+
+
+[*] Make `./script.py` standalone run
+[ ] Adding support of argparse
+[ ] Adding support of advanced table formatting 1/4: supports custom options in table meta-info like: `[cols="4s,30", frame=none, prettify=no]` (ability to skip certain tables with prettify/donttouch attribute)
+[ ] Adding support of advanced table formatting 2/4: supports tables with merging rows and/or columns
+[ ] Adding support of advanced table formatting 3/4: supports tables in manner "single cell per string"
+[ ] Adding support of advanced table formatting 4/4: ???
+
+
+
+
+
