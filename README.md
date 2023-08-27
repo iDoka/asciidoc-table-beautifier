@@ -64,12 +64,12 @@ If the number is not true, then -- false.
 ## ToDo
 
 
-[*] Make `./script.py` standalone run
-[ ] Adding support of argparse
-[ ] Adding support of advanced table formatting 1/4: supports custom options in table meta-info like: `[cols="4s,30", frame=none, prettify=no]` (ability to skip certain tables with prettify/donttouch attribute)
-[ ] Adding support of advanced table formatting 2/4: supports tables with merging rows and/or columns
-[ ] Adding support of advanced table formatting 3/4: supports tables in manner "single cell per string"
-[ ] Adding support of advanced table formatting 4/4: ???
+- [x] Make `./script.py` standalone run
+- [ ] Adding support of argparse
+- [ ] Adding support of advanced table formatting 1/4: supports custom options in table meta-info like: `[cols="4s,30", frame=none, prettify=no]` (ability to skip certain tables with prettify/donttouch attribute)
+- [ ] Adding support of advanced table formatting 2/4: supports tables with merging rows and/or columns
+- [ ] Adding support of advanced table formatting 3/4: supports tables in manner "single cell per string"
+- [ ] Adding support of advanced table formatting 4/4: ???
 
 
 
