@@ -1,7 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""Processing asciidoc file.
+"""
+
 import sys
 import os
 import re
-import pypandoc
+#import pypandoc
 
 def align_vertical_bars_in_tables(adoc_content):
     # Regular expression for Asciidoc table lookup
